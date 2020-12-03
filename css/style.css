@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: blue;
+  padding: 30px;
+  color: white;
+  border: 1px solid red;
+}
+
+.navbar h1 {
+  color: white;
+}
+
+.navbar nav {
+  width: 98%;
+  height: 30%;
+  /* only for demonstration, should be removed */
+  background: orange;
+  padding: 10px;
+  border: 2px solid lightgreen;
+}
+
+aside {
+  background-color: yellow;
+  border: 2px solid red;
+}
+
+main {
+  background-color: red;
+  border: 2px solid blue;
+  width: 100%;
+  height: 490px;
+  color: white;
+  margin: 10px;
+}
+
+article {
+  background-color: yellow;
+  margin: 10px;
+}
+
+.columna2 {
+  display: none;
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+  .columna2 {
+    display: block;
+  }
+}
+
+footer {
+  background-color: purple;
+  height: 70px;
+  /* margin: 10px; */
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
